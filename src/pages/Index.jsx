@@ -4,7 +4,7 @@ const Index = () => {
   return (
     <Container maxW="container.xl" p={0}>
       {/* Navigation Bar */}
-      <Box as="nav" bg="gray.800" color="white" py={4}>
+      <Box as="nav" bg="#fff1e5" color="black" py={4}>
         <Flex justify="space-between" align="center" maxW="container.xl" mx="auto" px={4}>
           <Heading as="h1" size="lg">Financial Times</Heading>
           <HStack spacing={8}>
@@ -19,7 +19,7 @@ const Index = () => {
       </Box>
 
       {/* Main Headline Section */}
-      <Box as="section" bg="gray.100" py={16}>
+      <Box as="section" bg="#f7f7f7" py={16}>
         <Container maxW="container.lg">
           <Heading as="h2" size="2xl" mb={4}>Main Headline: Breaking News</Heading>
           <Text fontSize="xl">This is the main headline section where the most important news will be displayed.</Text>
@@ -27,7 +27,7 @@ const Index = () => {
       </Box>
 
       {/* Featured Articles Section */}
-      <Box as="section" py={16}>
+      <Box as="section" bg="#ffffff" py={16}>
         <Container maxW="container.lg">
           <Heading as="h3" size="xl" mb={8}>Featured Articles</Heading>
           <Stack spacing={8}>
@@ -48,7 +48,7 @@ const Index = () => {
       </Box>
 
       {/* Footer */}
-      <Box as="footer" bg="gray.800" color="white" py={8}>
+      <Box as="footer" bg="#333333" color="white" py={8}>
         <Container maxW="container.lg">
           <VStack spacing={4}>
             <Text>Contact us: contact@financialtimes.com</Text>
